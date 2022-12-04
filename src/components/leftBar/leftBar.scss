@@ -1,0 +1,55 @@
+.vl{
+    flex: 2;
+  
+      border-right:  1px solid rgb(214, 210, 210);
+      height: 900px;
+   
+   .leftBar{
+    
+        top:40px;
+         width: auto;
+         padding-right: 50px;
+        background-color: white;
+        position: -webkit-sticky;
+   position: sticky;
+   top:0;
+   
+
+    .container{
+        padding: 30px;
+        padding-top: 50px;
+        .menu{
+            
+            display: flex;
+            flex-direction: column;
+        
+            gap: 30px;
+            font-size: 40;
+            font-weight: 400;
+            .user{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                img{
+                    width: 150px;
+                    height: 60px;
+                    padding-bottom: 20px;
+                }
+            }
+            
+        .item{
+             display: flex;
+             align-items:baseline;
+             gap: 10px;
+             align-items: center;
+            
+             span{
+                font-size: 15px;
+                
+                
+                
+             }
+        }
+    }
+}
+}}

@@ -1,0 +1,86 @@
+
+.Login{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+      
+        width: 40%;
+        display: flex;
+           background: rgb(26, 25, 25);
+           
+        border-radius: 10px;
+        min-height: 200px;
+        overflow: hidden;
+        .left{
+           
+           flex: 1;
+           background: url("https://images.pexels.com/photos/594421/pexels-photo-594421.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1s")center;
+            background-size: cover;
+            
+            padding:30px;
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+            color: white;
+            h1{
+            font-size: 80px;
+            line-height: 80px;
+            color:white;
+            }
+            p{
+              font-size: 30px;
+              color:white;
+            }
+            span{
+             font-size: 14px;
+             color: white;
+            }
+             button{
+              width: 50%;
+              padding: 10px;
+              border: none;
+              background-color: rgb(172, 18, 134);
+              color:white;
+             font-weight: bold;
+            cursor: pointer;}
+        }
+    }
+    .right{
+       
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        h1{
+            color: white;
+             
+        }
+            form{
+                display: flex;
+                flex-direction: column;
+             gap: 30px;
+                input{
+                  border: none;
+                  border-bottom: 1px solid rgb(207, 200, 200);
+                  padding: 20px 10px;
+                  color: white;
+                
+
+                }
+                button{
+                  width: 50%;
+                  padding: 10px;
+                  border: none;
+                  background-color: rgb(172, 18, 134);
+                  color: white;
+                  font-weight: bold;
+                  cursor: pointer;
+                }
+            
+        }
+    }
+  }
